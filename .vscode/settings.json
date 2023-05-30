@@ -1,0 +1,9 @@
+{
+    "fiveServer.browser": [
+
+    ],
+    "debug.javascript.defaultRuntimeExecutable": {
+    
+        "pwa-node": "node"
+    }
+}

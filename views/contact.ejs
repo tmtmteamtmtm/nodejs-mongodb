@@ -47,9 +47,9 @@
       <div>
         <h3 class="float-md-start mb-0">Portfolio</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link active" aria-current="page" href="/home">Home</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="/home">Home</a>
+          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
           <% if (loggedIn) { %>
             <a class="btn btn-sm btn-danger" href="/logout">Logout</a>
             <% } %>
@@ -63,16 +63,11 @@
     </header>
 
     <main class="px-3">
-      <h1>Home Page</h1>
-      <p class="lead">Welcome, <%= UserData.email %>
-      </p>
-      <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-      </p>
+      <h1>Contact</h1>
     </main>
 
     <footer class="mt-auto text-white-50">
-      <p>Songchai Panich <a href="#"></a></p>
+      <p>© 2023 Copyright By <a href="/">Songchai Panich</a></p>
     </footer>
   </div>
 
